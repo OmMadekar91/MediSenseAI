@@ -1,0 +1,33 @@
+---
+Source: National Institutes of Health (NIH) / NIDDK & ADA Standards of Care
+URL: https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/diabetes/diabetes-prediabetes
+Title: Diabetes & Prediabetes Tests
+AccessDate: 2026-10-10
+---
+
+# Diabetes Mellitus Overview
+
+## 1. Types & Characteristics
+- Type 1: Autoimmune beta-cell destruction, absolute insulin deficiency. Often onset <35 years, lower BMI, rapid onset.
+- Type 2: Progressive loss of beta-cell secretion + insulin resistance. Often adult onset, associated with obesity.
+- Gestational (GDM): Glucose intolerance first recognized during pregnancy (24-28 weeks).
+- Monogenic: Single gene mutation (e.g., MODY).
+
+## 2. Symptoms of Hyperglycemia
+- Polyuria (Excessive urination)
+- Polydipsia (Excessive thirst)
+- Unexplained weight loss
+- Other: Blurred vision, fatigue, poor wound healing.
+
+## 3. Diagnostic Markers & Reference Ranges (Non-Pregnant Adults)
+Diagnosis requires two abnormal test results unless symptoms + random glucose >= 200 mg/dL.
+
+| Test | Normal | Prediabetes | Diabetes |
+| :--- | :--- | :--- | :--- |
+| Fasting Plasma Glucose (FPG) | <100 mg/dL | 100-125 mg/dL | >= 126 mg/dL |
+| HbA1c (Glycated Hemoglobin) | <5.7% | 5.7-6.4% | >= 6.5% |
+| 2-h Plasma Glucose (OGTT) | <140 mg/dL | 140-199 mg/dL | >= 200 mg/dL |
+
+## 4. Classification Markers
+- Islet Autoantibodies (GAD65, IA-2, ZnT8): Presence indicates Type 1.
+- C-peptide: Low/Undetectable indicates Type 1; Normal/High suggests Type 2.

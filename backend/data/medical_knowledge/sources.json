@@ -1,0 +1,51 @@
+[
+  {
+    "filename": "anemia.txt",
+    "title": "Anemia - Diagnosis & Markers",
+    "source_url": "https://www.nhlbi.nih.gov/health/anemia/diagnosis",
+    "organization": "National Heart, Lung, and Blood Institute (NHLBI)",
+    "accessed_date": "2026-10-10"
+  },
+  {
+    "filename": "diabetes.txt",
+    "title": "Diabetes & Prediabetes Tests",
+    "source_url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/diabetes/diabetes-prediabetes",
+    "organization": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+    "accessed_date": "2026-10-10"
+  },
+  {
+    "filename": "cbc.txt",
+    "title": "Complete Blood Count (CBC) Reference Guide",
+    "source_url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+    "organization": "National Library of Medicine (MedlinePlus) / NHLBI",
+    "accessed_date": "2026-10-11"
+  },
+  {
+    "filename": "metabolic_panel.txt",
+    "title": "Comprehensive Metabolic Panel (CMP) & Kidney Function",
+    "source_url": "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/",
+    "organization": "National Library of Medicine (MedlinePlus) / NKF",
+    "accessed_date": "2026-10-11"
+  },
+  {
+    "filename": "lipid_panel.txt",
+    "title": "Lipid Panel & Cholesterol Reference Guide",
+    "source_url": "https://medlineplus.gov/lab-tests/cholesterol-levels/",
+    "organization": "American Heart Association (AHA) / MedlinePlus",
+    "accessed_date": "2026-10-11"
+  },
+  {
+    "filename": "liver_function.txt",
+    "title": "Liver Function Tests (Hepatic Function Panel)",
+    "source_url": "https://medlineplus.gov/lab-tests/liver-function-tests/",
+    "organization": "American Liver Foundation / MedlinePlus",
+    "accessed_date": "2026-10-11"
+  },
+  {
+    "filename": "thyroid_panel.txt",
+    "title": "Thyroid Function Tests Reference Guide",
+    "source_url": "https://medlineplus.gov/lab-tests/thyroid-tests/",
+    "organization": "American Thyroid Association (ATA) / MedlinePlus",
+    "accessed_date": "2026-10-11"
+  }
+]

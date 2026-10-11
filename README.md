@@ -1,0 +1,169 @@
+# MediSense AI — Medical Reports, Made Clear
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Mistral AI](https://img.shields.io/badge/LLM-Mistral%20AI-orange?logo=mistral&logoColor=white)](https://mistral.ai/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+**MediSense AI** is a patient-friendly medical intelligence platform designed to transform complex, intimidating laboratory PDF reports into clear, structured, and actionable health insights.
+
+---
+
+## ✨ Features
+
+- 📄 **Intelligent Lab PDF Extraction**
+  - High-precision extraction of test names, observed values, units, and reference intervals across standard formats (CBC, CMP, Lipid Panels, Thyroid, Iron Panels, etc.).
+  - Handles single-page and multi-page medical PDFs with automated table detection.
+
+- 📊 **Interactive Lab Results Dashboard**
+  - Clear patient-oriented status badges: `Within lab range`, `Below lab range`, `Above lab range`, and `Needs verification`.
+  - Built-in biological plausibility checks to identify extracted outliers or scanning anomalies.
+  - Detailed side-drawer educational guides for individual biomarkers (what it is, why it matters, clinical targets).
+
+- 📋 **Dynamic Doctor Consultation Checklist ("Assignments & Doctor Questions")**
+  - Automatically analyzes current lab findings to generate personalized talking points for upcoming appointments.
+  - Out-of-range markers (Low, High, Watch, Review) are prioritized at the top of the consultation list.
+  - Interactive task checklist with real-time completion tracking and one-click clipboard export (`Copy Questions`).
+
+- 💬 **Evidence-Grounded Health Insights**
+  - Medical Q&A powered by **Mistral AI** (`open-mistral-7b`) and local vector retrieval (Sentence-Transformers + FAISS).
+  - Strict grounding: answers only cite verified reference passages (`[S1]`, `[S2]`) from MedlinePlus, NIH, and AHA.
+  - Integrated safety guardrails and acute emergency symptom detection (e.g., chest pain, shortness of breath).
+
+- 📈 **Longitudinal Biomarker Progress Tracking**
+  - Visual range meters plotting your exact results against clinical low and high reference thresholds.
+  - Overview cards displaying the proportion of optimal vs. attention-requiring biomarkers.
+
+---
+
+## 🏗️ Project Architecture
+
+```
+MediSenseAI/
+├── backend/
+│   ├── api/                # FastAPI endpoint routers (reports, chat, health)
+│   ├── data/index/         # Vector index and metadata
+│   ├── rag/                # Embeddings, retrieval, and knowledge ingestion
+│   ├── safety/             # Medical safety guardrails and citation validation
+│   ├── schemas/            # Pydantic models for request/response validation
+│   ├── services/           # PDF parsing, report analysis, and Mistral answer generation
+│   ├── requirements.txt    # Python backend dependencies
+│   ├── .env.example        # Environment variable template
+│   └── main.py             # FastAPI entrypoint
+├── frontend/
+│   ├── src/
+│   │   ├── components/     # React dashboard components & views
+│   │   ├── data/           # Reference ranges and educational medical guides
+│   │   ├── App.jsx         # Main application layout and state management
+│   │   └── App.css         # Modern styling & design system
+│   ├── package.json        # Frontend dependencies
+│   └── vite.config.js      # Vite build configuration
+├── run.py                  # Single-command unified dev server launcher
+├── run.bat                 # Windows one-click batch launcher
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Python:** 3.10 or higher
+- **Node.js:** 18 or higher (with npm)
+- **Mistral AI API Key:** [Get a free API key from Mistral Console](https://console.mistral.ai/)
+
+---
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/MediSenseAI.git
+   cd MediSenseAI
+   ```
+
+2. **Configure Environment Variables:**
+   Copy the example environment file into `backend/.env`:
+   ```bash
+   cp backend/.env.example backend/.env
+   ```
+   Open `backend/.env` and insert your Mistral API key:
+   ```env
+   MISTRAL_API_KEY=your_mistral_api_key_here
+   MISTRAL_MODEL=open-mistral-7b
+   RAG_MIN_SIMILARITY=0.30
+   ```
+
+3. **Install Backend Dependencies:**
+   ```bash
+   pip install -r backend/requirements.txt
+   ```
+
+4. **Install Frontend Dependencies:**
+   ```bash
+   cd frontend
+   npm install
+   cd ..
+   ```
+
+---
+
+### Running the Application
+
+#### Option 1: Single Command (Recommended)
+
+Run the unified development script, which automatically starts both the backend and frontend, checks for port conflicts, and opens the dashboard in your default browser:
+
+```bash
+python run.py
+```
+
+*Or on Windows:*
+```cmd
+run.bat
+```
+
+#### Option 2: Run Services Separately
+
+**Terminal 1 — Backend:**
+```bash
+cd backend
+python -m uvicorn main:app --port 8000 --reload
+```
+
+**Terminal 2 — Frontend:**
+```bash
+cd frontend
+npm run dev
+```
+
+---
+
+### Access Endpoints
+
+- **Web Application:** [http://localhost:5173/](http://localhost:5173/)
+- **Backend API & Swagger Docs:** [http://localhost:8000/docs](http://localhost:8000/docs)
+- **Health Check:** [http://localhost:8000/health](http://localhost:8000/health)
+
+---
+
+## 🔒 Security & Privacy
+
+- **No Medical Data Retention:** Extracted report values are processed in memory and client-side storage unless explicitly configured otherwise.
+- **Strict Evidence Grounding:** The AI engine will not fabricate diagnostic claims or speculate outside supplied reference literature.
+- **Protected Secrets:** All API keys and environment configurations are strictly isolated in `.env` and excluded from version control.
+
+---
+
+## ⚠️ Medical Disclaimer
+
+**MediSense AI is intended strictly for general informational, educational, and preparation purposes.** It does not provide medical diagnosis, prescribe treatments, or substitute for consultation with a licensed physician or healthcare professional. In the event of a medical emergency, immediately contact your local emergency services (e.g., 911).
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.

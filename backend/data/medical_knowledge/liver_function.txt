@@ -1,0 +1,30 @@
+---
+Source: American Liver Foundation / MedlinePlus
+URL: https://medlineplus.gov/lab-tests/liver-function-tests/
+Title: Liver Function Tests (Hepatic Function Panel)
+AccessDate: 2026-10-11
+---
+
+# Liver Function Tests (Hepatic Panel)
+
+Liver function tests (LFTs) measure specific proteins, liver enzymes, and bilirubin in the blood to evaluate hepatic health, detect liver damage, or monitor treatment response.
+
+## 1. Key Liver Enzymes
+- **Alanine Aminotransferase (ALT)**: Enzyme found mainly in hepatocytes (liver cells). Most specific marker for liver injury.
+  - Typical adult range: 7 to 56 U/L.
+  - Markedly high ALT (>5-10x upper limit): Acute viral hepatitis, toxic drug injury (e.g., acetaminophen overdose), or ischemic liver injury.
+  - Moderately high ALT: Non-alcoholic fatty liver disease (NAFLD), chronic hepatitis, or alcohol-related liver injury.
+
+- **Aspartate Aminotransferase (AST)**: Enzyme found in liver, heart, skeletal muscle, and kidneys.
+  - Typical adult range: 10 to 40 U/L.
+  - AST to ALT ratio (De Ritis ratio): A ratio >2:1 is frequently observed in alcoholic liver disease.
+
+- **Alkaline Phosphatase (ALP)**: Enzyme associated with the biliary tract and bones.
+  - Typical adult range: 44 to 147 U/L.
+  - Elevated ALP: Bile duct obstruction, gallstones, cholestasis, or rapid bone turnover/disease.
+
+## 2. Bilirubin Markers
+- **Total Bilirubin**: Yellow-orange byproduct of normal hemoglobin breakdown.
+  - Typical adult range: 0.1 to 1.2 mg/dL.
+  - Elevated Bilirubin (>2.0 - 2.5 mg/dL): Leads to clinical jaundice (yellowing of skin and eyes).
+- **Direct (Conjugated) Bilirubin**: 0.0 to 0.3 mg/dL. High levels suggest biliary excretion impairment or hepatitis.

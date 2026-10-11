@@ -1,0 +1,26 @@
+---
+Source: American Thyroid Association (ATA) / MedlinePlus
+URL: https://medlineplus.gov/lab-tests/thyroid-tests/
+Title: Thyroid Function Tests Reference Guide
+AccessDate: 2026-10-11
+---
+
+# Thyroid Function Tests
+
+Thyroid function tests measure hormones produced by the thyroid gland and pituitary gland to detect hypothyroidism (underactive thyroid) or hyperthyroidism (overactive thyroid).
+
+## 1. Key Thyroid Markers
+
+- **Thyroid-Stimulating Hormone (TSH / Thyrotropin)**: Pituitary hormone signaling the thyroid gland to produce thyroid hormones. Primary frontline screening test.
+  - Typical adult range: 0.4 to 4.0 mIU/L (or uIU/mL).
+  - High TSH (>4.0 mIU/L): Primary indicator of hypothyroidism (pituitary produces excess TSH trying to stimulate an underperforming thyroid). Often accompanied by fatigue, weight gain, constipation, and cold intolerance.
+  - Low TSH (<0.4 mIU/L): Primary indicator of hyperthyroidism (pituitary downregulates TSH due to excess circulating thyroid hormone). Often accompanied by weight loss, rapid heart rate (palpitations), anxiety, and heat intolerance.
+
+- **Free Thyroxine (Free T4)**: Active, unbound form of the primary hormone made by the thyroid gland.
+  - Typical adult range: 0.8 to 1.8 ng/dL (10 to 23 pmol/L).
+  - Low Free T4 with High TSH: Confirms overt primary hypothyroidism.
+  - High Free T4 with Low TSH: Confirms overt hyperthyroidism.
+  - Normal Free T4 with High TSH: Subclinical hypothyroidism.
+
+- **Free Triiodothyronine (Free T3)**: Active thyroid hormone converted from T4.
+  - Typical adult range: 2.3 to 4.2 pg/mL (3.5 to 6.5 pmol/L).

@@ -1,0 +1,37 @@
+---
+Source: National Library of Medicine (MedlinePlus) / National Kidney Foundation
+URL: https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/
+Title: Comprehensive Metabolic Panel (CMP) & Kidney Function
+AccessDate: 2026-10-11
+---
+
+# Comprehensive Metabolic Panel (CMP)
+
+A Comprehensive Metabolic Panel (CMP) is a blood test measuring 14 different substances to evaluate body metabolism, kidney function, liver health, fluid and electrolyte balance, and blood sugar.
+
+## 1. Kidney & Waste Markers
+- **Serum Creatinine**: Waste product produced by muscle breakdown and filtered by healthy kidneys.
+  - Typical adult range: 0.7 to 1.3 mg/dL for men; 0.6 to 1.1 mg/dL for women.
+  - Elevated Creatinine: Indicates reduced kidney filtration, acute kidney injury, chronic kidney disease (CKD), dehydration, or high muscle breakdown.
+- **Blood Urea Nitrogen (BUN)**: Waste product from protein digestion processed by the liver and removed by the kidneys.
+  - Typical adult range: 7 to 20 mg/dL.
+  - Elevated BUN: Dehydration, high protein diet, kidney dysfunction, or gastrointestinal bleeding.
+- **Estimated Glomerular Filtration Rate (eGFR)**: Calculated metric estimating kidney filtering capacity.
+  - Normal: 90 mL/min/1.73m2 or higher.
+  - 60 to 89: Mild reduction (normal in older adults if without kidney damage).
+  - Below 60: May indicate chronic kidney disease if sustained for 3 or more months.
+
+## 2. Electrolytes and Fluid Balance
+- **Sodium (Na)**: 135 to 145 mEq/L (or mmol/L). Regulates fluid balance and nerve transmission.
+  - Hyponatremia (<135): Water retention, diuretic medications, heart failure.
+  - Hypernatremia (>145): Dehydration, excessive sodium intake.
+- **Potassium (K)**: 3.5 to 5.0 mEq/L (or mmol/L). Vital for cardiac rhythm and muscle contraction.
+  - Hypokalemia (<3.5): Diuretics, vomiting, diarrhea; risk of cardiac arrhythmias.
+  - Hyperkalemia (>5.0): Kidney impairment, certain medications; potentially dangerous cardiac arrhythmias.
+- **Chloride (Cl)**: 96 to 106 mEq/L. Maintains osmotic pressure and acid-base balance.
+- **Carbon Dioxide / Bicarbonate (CO2 / HCO3)**: 23 to 29 mEq/L. Indicates body acid-base balance.
+- **Calcium (Ca)**: 8.5 to 10.2 mg/dL. Important for bone strength, muscle contraction, and cardiac function.
+
+## 3. Proteins
+- **Total Protein**: 6.0 to 8.3 g/dL. Includes albumin and globulin fractions.
+- **Albumin**: 3.5 to 5.0 g/dL. Primary protein produced by the liver maintaining oncotic pressure. Low levels occur in malnutrition, liver cirrhosis, or nephrotic syndrome.

@@ -1,0 +1,40 @@
+---
+Source: American Heart Association (AHA) / MedlinePlus
+URL: https://medlineplus.gov/lab-tests/cholesterol-levels/
+Title: Lipid Panel & Cholesterol Reference Guide
+AccessDate: 2026-10-11
+---
+
+# Lipid Panel & Cholesterol Guidelines
+
+A lipid panel measures fats (lipids) in the blood to evaluate cardiovascular risk, including coronary artery disease, heart attack, and stroke.
+
+## 1. Key Lipid Markers & Target Ranges (Adults)
+
+- **Total Cholesterol**: Combined measurement of LDL, HDL, and other lipid components.
+  - Desirable: Less than 200 mg/dL (or <5.2 mmol/L).
+  - Borderline high: 200 to 239 mg/dL.
+  - High: 240 mg/dL or higher.
+
+- **Low-Density Lipoprotein (LDL) Cholesterol ("Bad" Cholesterol)**: Carries cholesterol to tissues; excess contributes to atherosclerotic plaque buildup.
+  - Optimal: Less than 100 mg/dL (<2.6 mmol/L).
+  - Near optimal: 100 to 129 mg/dL.
+  - Borderline high: 130 to 159 mg/dL.
+  - High: 160 to 189 mg/dL.
+  - Very high: 190 mg/dL or above.
+
+- **High-Density Lipoprotein (HDL) Cholesterol ("Good" Cholesterol)**: Transports cholesterol away from arteries back to the liver for excretion.
+  - Optimal (protective): 60 mg/dL or higher.
+  - Acceptable for men: 40 to 59 mg/dL.
+  - Acceptable for women: 50 to 59 mg/dL.
+  - Low (risk factor): Less than 40 mg/dL in men; less than 50 mg/dL in women.
+
+- **Triglycerides**: Most common type of fat stored in the body, derived from excess dietary calories.
+  - Normal: Less than 150 mg/dL (<1.7 mmol/L).
+  - Borderline high: 150 to 199 mg/dL.
+  - High: 200 to 499 mg/dL.
+  - Very high: 500 mg/dL or higher (carries risk of acute pancreatitis).
+
+## 2. Lifestyle and Clinical Considerations
+- Elevated triglycerides and LDL, combined with low HDL, increase atherosclerosis risk.
+- Fasting for 9-12 hours is traditionally recommended prior to drawing a lipid panel, although non-fasting panels are increasingly utilized for standard screening.

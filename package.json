@@ -1,0 +1,10 @@
+{
+  "name": "medisense-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MediSense AI — Medical Reports, Made Clear",
+  "scripts": {
+    "start": "python run.py",
+    "dev": "python run.py"
+  }
+}

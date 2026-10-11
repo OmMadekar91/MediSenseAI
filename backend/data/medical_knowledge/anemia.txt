@@ -1,0 +1,8 @@
+---
+Source: National Heart, Lung, and Blood Institute (NHLBI)
+URL: https://www.nhlbi.nih.gov/health/anemia/diagnosis
+Title: Anemia - Diagnosis
+AccessDate: 2026-10-10
+---
+
+Anemia occurs when the blood lacks enough healthy red blood cells. Hemoglobin is the protein in red blood cells that carries oxygen. A primary marker for anemia is low hemoglobin levels. Typical adult reference ranges are 14-17 gm/dL for men and 12-15 gm/dL for women.

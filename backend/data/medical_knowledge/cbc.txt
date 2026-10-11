@@ -1,0 +1,45 @@
+---
+Source: National Library of Medicine (MedlinePlus) / NHLBI
+URL: https://medlineplus.gov/lab-tests/complete-blood-count-cbc/
+Title: Complete Blood Count (CBC) Reference Guide
+AccessDate: 2026-10-11
+---
+
+# Complete Blood Count (CBC)
+
+A complete blood count (CBC) is a common blood test that evaluates overall health and detects a wide range of disorders, including anemia, infection, and leukemia.
+
+## 1. Key Components and Typical Reference Ranges
+
+- **Red Blood Cells (RBC)**: Carry oxygen from the lungs to the body.
+  - Typical adult male: 4.5 to 5.9 million cells/mcL (or 10^12/L).
+  - Typical adult female: 4.1 to 5.1 million cells/mcL.
+  - Low RBC: May indicate anemia, bleeding, or nutritional deficiency.
+  - High RBC (erythrocytosis): May occur in dehydration, chronic low oxygen states, or polycythemia vera.
+
+- **Hemoglobin (Hb / Hgb)**: The oxygen-carrying iron-rich protein in red blood cells.
+  - Typical adult male: 13.8 to 17.2 g/dL.
+  - Typical adult female: 12.1 to 15.1 g/dL.
+  - Low Hemoglobin: Common indicator of anemia, blood loss, kidney disease, or bone marrow issues.
+  - High Hemoglobin: May indicate smoking, high altitude living, heart disease, or polycythemia.
+
+- **Hematocrit (Hct)**: The proportion of blood volume made up of red blood cells.
+  - Typical adult male: 40.7% to 50.3%.
+  - Typical adult female: 36.1% to 44.3%.
+
+- **White Blood Cells (WBC / Leukocytes)**: Immune system defense cells against infection and inflammation.
+  - Typical adult range: 4,500 to 11,000 cells/mcL (4.5 to 11.0 x 10^9/L).
+  - Low WBC (leukopenia): May indicate viral infections, autoimmune conditions, bone marrow issues, or severe infections.
+  - High WBC (leukocytosis): Often indicates bacterial or viral infection, inflammation, tissue damage, intense physical stress, or leukemia.
+
+- **Platelets (Plt / Thrombocytes)**: Cell fragments crucial for blood clotting and stopping bleeding.
+  - Typical adult range: 150,000 to 450,000 /mcL (150 to 450 x 10^9/L).
+  - Low Platelets (thrombocytopenia): Increases bleeding and bruising risk.
+  - High Platelets (thrombocytosis): May indicate reactive inflammatory conditions, iron deficiency, or bone marrow disorders.
+
+## 2. Red Blood Cell Indices
+- **MCV (Mean Corpuscular Volume)**: Average size of red blood cells. Range: 80 to 100 fL.
+  - Low MCV (<80 fL): Microcytic anemia (most commonly iron deficiency anemia or thalassemia).
+  - High MCV (>100 fL): Macrocytic anemia (commonly vitamin B12 or folate deficiency, thyroid issues, or liver disease).
+- **MCH (Mean Corpuscular Hemoglobin)**: Average amount of hemoglobin inside a red cell. Range: 27 to 33 pg.
+- **MCHC (Mean Corpuscular Hemoglobin Concentration)**: Concentration of hemoglobin in a given volume of packed red cells. Range: 32 to 36 g/dL.
