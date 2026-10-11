@@ -38,6 +38,13 @@
 
 ---
 
+## 🎥 MediSense AI — Project Demo
+
+Watch the complete application walkthrough.
+
+[▶️ **Watch MediSense AI Demo Video**](https://drive.google.com/drive/u/0/folders/1QXZ4m3TWQVkrr2EEYRZgryfat42oPnXr)
+
+
 ## 📸 Application Workflow & Visual Walkthrough
 
 The platform is designed around a seamless, 5-step patient clinical workflow:
