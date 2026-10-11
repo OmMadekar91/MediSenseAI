@@ -38,6 +38,45 @@
 
 ---
 
+## 📸 Application Workflow & Visual Walkthrough
+
+The platform is designed around a seamless, 5-step patient clinical workflow:
+
+### 1. Document Extraction & Upload (`Upload Labs`)
+Upload your clinical laboratory report PDF (CBC, Metabolic, Lipid, Thyroid, Iron panels, etc.) through the privacy-preserving dropzone, or instantly load an interactive sample demo report (`sample 6.pdf`). All parsing executes locally.
+
+![Upload Laboratory Report](docs/screenshots/01-upload-laboratory-report.png)
+
+---
+
+### 2. Workspace Summary (`Dashboard`)
+Get an immediate high-level overview of your health portfolio: total active biomarkers, laboratory status distribution (`In range`, `Low/Review`, `Watch`), and quick action buttons to upload new reports or review data.
+
+![Dashboard Summary](docs/screenshots/02-dashboard-summary.png)
+
+---
+
+### 3. Structured Biomarker Review (`Lab Results`)
+Inspect extracted laboratory tests organized in a high-clarity clinical grid with standardized numerical values, laboratory reference intervals, patient-friendly status badges (`In range`, `Low`, `Watch`), and direct access to source PDF documents.
+
+![Lab Results Review](docs/screenshots/03-lab-results-review.png)
+
+---
+
+### 4. Clinical Consultation Preparation (`Assignments & Doctor Questions`)
+Prepare for upcoming doctor visits with a dynamic, personalized checklist of clinical talking points automatically synthesized from your abnormal biomarkers. Questions are prioritized into **Priority Review** and **Routine**, with real-time checkbox tracking and one-click clipboard export (`Copy Questions`).
+
+![Assignments & Doctor Questions](docs/screenshots/04-assignments-doctor-questions.png)
+
+---
+
+### 5. Longitudinal Range Progress Tracking (`Biomarker Progress`)
+Track how your observed numbers compare against clinical targets using visual multi-zone range meters (`Below Target`, `Optimal Normal Zone`, `Above Target`), accompanied by actionable educational notes for each biomarker.
+
+![Biomarker Progress Tracking](docs/screenshots/05-biomarker-progress-tracking.png)
+
+---
+
 ## 🏗️ Project Architecture
 
 ```
@@ -60,8 +99,12 @@ MediSenseAI/
 │   │   └── App.css         # Modern styling & design system
 │   ├── package.json        # Frontend dependencies
 │   └── vite.config.js      # Vite build configuration
+├── docs/
+│   └── screenshots/        # Visual walkthrough UI screenshots
+├── package.json            # Root npm script orchestrator (npm start)
 ├── run.py                  # Single-command unified dev server launcher
 ├── run.bat                 # Windows one-click batch launcher
+├── run.ps1                 # Windows PowerShell runner
 └── README.md
 ```
 
@@ -74,6 +117,34 @@ MediSenseAI/
 - **Python:** 3.10 or higher
 - **Node.js:** 18 or higher (with npm)
 - **Mistral AI API Key:** [Get a free API key from Mistral Console](https://console.mistral.ai/)
+
+---
+
+### ⚡ Quick Start (Single Command)
+
+Once your `.env` is configured and dependencies are installed, you can start the entire platform (FastAPI backend + Vite frontend + automatic browser launch) with **a single command** from the project root:
+
+```bash
+npm start
+```
+
+*Alternatively, use any of these single-command options:*
+```bash
+# Cross-platform Python runner
+python run.py
+
+# Windows Command Prompt
+run.bat
+
+# Windows PowerShell
+.\run.ps1
+```
+
+> **What the single-command runner does:**
+> - Automatically detects and clears any stuck processes on ports `8000` (FastAPI) and `5173` (Vite).
+> - Concurrently boots the FastAPI server and Vite dev server with unified, color-coded logging (`[BACKEND]` / `[FRONTEND]`).
+> - Waits for Vite to initialize and automatically opens [http://localhost:5173/](http://localhost:5173/) in your default browser.
+> - Gracefully terminates all background services together on `Ctrl+C`.
 
 ---
 
@@ -115,15 +186,17 @@ MediSenseAI/
 
 #### Option 1: Single Command (Recommended)
 
-Run the unified development script, which automatically starts both the backend and frontend, checks for port conflicts, and opens the dashboard in your default browser:
+Run the unified development script from the workspace root to start both backend and frontend together with automated browser launch:
 
 ```bash
-python run.py
+npm start
 ```
 
-*Or on Windows:*
-```cmd
-run.bat
+*Or direct runner scripts:*
+```bash
+python run.py       # Python runner (Linux / macOS / Windows)
+run.bat             # Windows CMD
+.\run.ps1           # Windows PowerShell
 ```
 
 #### Option 2: Run Services Separately

@@ -66,9 +66,26 @@ cd frontend
 npm install
 ```
 
-### 3. Development Server
-Start Vite development server:
+### 3. Running the Application
+
+#### Option A: Single Command — Full Stack (Recommended)
+To run both the **FastAPI backend** and **Vite frontend** concurrently with port-conflict resolution and automated browser opening, run from the repository root:
+
 ```bash
+# From repository root:
+npm start
+```
+*Or via runner scripts:*
+```bash
+python run.py       # Python runner (cross-platform)
+run.bat             # Windows CMD
+.\run.ps1           # Windows PowerShell
+```
+
+#### Option B: Standalone Frontend Dev Server
+To run only the Vite development client (connects to FastAPI at `http://localhost:8000`):
+```bash
+# From frontend/ directory:
 npm run dev
 ```
 The frontend will be accessible at: [http://localhost:5173/](http://localhost:5173/)
@@ -88,16 +105,16 @@ The bundled assets will be generated in `frontend/dist/`.
 
 ---
 
-## 🧩 Core Application Views
+## 🧩 Core Application Views (In User Workflow Sequence)
 
-| View | Purpose |
-| :--- | :--- |
-| **Dashboard** | Executive workspace summary featuring active biomarker counts, abnormal status breakdown, and new report quick actions. |
-| **Upload Labs** | PDF upload dropzone with automated parser integration, multi-report storage history, and sample report loader. |
-| **Lab Results** | Extracted laboratory values table with reference intervals, patient-friendly status badges, and educational detail drawer. |
-| **Assignments** | Dynamic doctor questions checklist prioritized by out-of-range biomarkers with interactive completion tracking and clipboard export. |
-| **Progress** | Visual longitudinal range meters plotting patient values between clinical minimum and maximum thresholds. |
-| **Health Insights**| Evidence-grounded medical Q&A powered by Mistral AI, citing verified clinical literature with safety disclaimers. |
+| Step | View | Purpose | Visual Reference |
+| :---: | :--- | :--- | :--- |
+| **1** | **Upload Labs** | PDF upload dropzone with automated local parser, multi-report storage history, and sample demo loader. | [Screenshot](../docs/screenshots/01-upload-laboratory-report.png) |
+| **2** | **Dashboard** | Executive workspace summary featuring active biomarker counts, abnormal status breakdown, and new report quick actions. | [Screenshot](../docs/screenshots/02-dashboard-summary.png) |
+| **3** | **Lab Results** | Extracted laboratory values table with reference intervals, patient-friendly status badges, and educational detail drawer. | [Screenshot](../docs/screenshots/03-lab-results-review.png) |
+| **4** | **Assignments** | Dynamic doctor questions checklist prioritized by out-of-range biomarkers with interactive completion tracking and clipboard export. | [Screenshot](../docs/screenshots/04-assignments-doctor-questions.png) |
+| **5** | **Progress** | Visual longitudinal range meters plotting patient values between clinical minimum and maximum thresholds. | [Screenshot](../docs/screenshots/05-biomarker-progress-tracking.png) |
+| **6** | **Health Insights**| Evidence-grounded medical Q&A powered by Mistral AI, citing verified clinical literature with safety disclaimers. | *Q&A Chat Assistant* |
 
 ---
 

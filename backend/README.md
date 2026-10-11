@@ -77,10 +77,19 @@ pip install -r requirements.txt
 ```
 
 ### 4. Run Development Server
+
+#### Standalone Backend:
 ```bash
 python -m uvicorn main:app --port 8000 --reload
 ```
 The API documentation and interactive Swagger UI will be available at: [http://localhost:8000/docs](http://localhost:8000/docs)
+
+#### Single Command (Full Stack):
+To run both backend and frontend together with automated browser launch, run from the root directory:
+```bash
+npm start
+# or: python run.py | run.bat | .\run.ps1
+```
 
 ---
 
