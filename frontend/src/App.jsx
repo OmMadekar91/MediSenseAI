@@ -11,8 +11,6 @@ import {
   DashboardView,
   AssignmentsView,
   ProgressView,
-  CheckInView,
-  ProfileView,
 } from "./components/OtherViews.jsx";
 
 import {
@@ -381,11 +379,7 @@ export default function App() {
           />
         )}
 
-        {/* TAB: WEEKLY CHECK-IN */}
-        {activeTab === "checkin" && <CheckInView />}
 
-        {/* TAB: HEALTH PROFILE */}
-        {activeTab === "profile" && <ProfileView />}
       </main>
     </div>
   );
