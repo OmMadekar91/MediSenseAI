@@ -38,7 +38,7 @@
 
 ---
 
-## 🎥 MediSense AI — Project Demo
+## 🎥 MediSense AI — Project Demo 
 
 Watch the complete application walkthrough.
 
